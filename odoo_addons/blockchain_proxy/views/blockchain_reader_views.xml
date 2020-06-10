@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="view_blockchain_reader_tree">
+            <field name="name">blockchain.reader.tree</field>
+            <field name="model">blockchain.reader</field>
+            <field name="priority">10</field>
+            <field name="arch" type="xml">
+                <tree string="Blockchain reader">
+                    <field name="family_name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_mail_blockchain_reader_form">
+            <field name="name">blockchain.reader.form</field>
+            <field name="model">blockchain.reader</field>
+            <field name="arch" type="xml">
+                <form string="Blockchain reader">
+                    <header>
+                        <button name="read_save_log" string="Read state" type="object" class="oe_highlight"/>
+                        <button name="write_save_log" string="Write state" type="object" />                        
+                    </header>
+                    <sheet>
+                        <group string="Family name">
+                            <group>
+                                <field name="family_name" attrs="{'readonly':[('response','!=',False)]}"/>                                
+                                <field name="payload" />
+                                <field name="reverse" />
+                            </group>
+                            <group>
+                                <field name="start" />
+                                <field name="count" />
+                            </group>
+                        </group>
+                        <notebook>
+                            <page id="result" string="Lines">
+                                <field name="line_ids">
+                                    <tree default_order="sequence">
+                                        <field name="sequence" widget="handle"/>
+                                        <field name="signer_key" />
+                                        <field name="payload" />
+                                    </tree>
+                                </field>
+                            </page>
+                        </notebook>
+                        <footer>
+                            <field name="response" readonly="1"/>
+                        </footer>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_view_blockchain_reader">
+            <field name="name">Readed instances</field>
+            <field name="res_model">blockchain.reader</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <menuitem id="menu_blockchain" name="Blockchain" parent="base.menu_custom" sequence="1"/>
+        <menuitem name="Blockchain reader" id="menu_blockchain_reader" parent="menu_blockchain" action="action_view_blockchain_reader" />
+        <!-- <menuitem name="Subtypes" id="menu_blockchain_reader" parent="base.menu_email" action="action_view_blockchain_reader"/> -->
+
+
+    </data>
+</odoo>

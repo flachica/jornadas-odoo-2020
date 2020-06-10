@@ -1,0 +1,221 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* blockchain_proxy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-29 17:28+0000\n"
+"PO-Revision-Date: 2020-02-29 18:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. module: blockchain_proxy
+#: model:ir.ui.menu,name:blockchain_proxy.menu_blockchain
+msgid "Blockchain"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.ui.menu,name:blockchain_proxy.menu_blockchain_reader
+#: model_terms:ir.ui.view,arch_db:blockchain_proxy.view_blockchain_reader_tree
+#: model_terms:ir.ui.view,arch_db:blockchain_proxy.view_mail_blockchain_reader_form
+msgid "Blockchain reader"
+msgstr "Lector blockchain"
+
+#. module: blockchain_proxy
+#: code:addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#: code:addons/survey-blockchain/odoo_addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#, python-format
+msgid ""
+"Check connectivity with the Blockchain network. Failed to connect to "
+"{}\n"
+" Error: \n"
+" {}"
+msgstr "Compruebe la conectividad con Blockchain. Fallo al conectar {}\nError: {}"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__create_uid
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__create_date
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__display_name
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__display_name
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_wrapper__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: blockchain_proxy
+#: code:addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#: code:addons/survey-blockchain/odoo_addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#, python-format
+msgid "Error {}: {}"
+msgstr ""
+
+#. module: blockchain_proxy
+#: code:addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#: code:addons/survey-blockchain/odoo_addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#, python-format
+msgid "Failed to load private key: {}"
+msgstr "Fallo al cargar la llave privada: {}"
+
+#. module: blockchain_proxy
+#: code:addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#: code:addons/survey-blockchain/odoo_addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#, python-format
+msgid "Failed to read private key {}: {}"
+msgstr "Fallo al leer la llave privada {}: {}"
+
+#. module: blockchain_proxy
+#: model_terms:ir.ui.view,arch_db:blockchain_proxy.view_mail_blockchain_reader_form
+msgid "Family name"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__family_name
+msgid "Family name (Smart contract)"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__id
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__id
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_wrapper__id
+msgid "ID"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader____last_update
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line____last_update
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_wrapper____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__write_uid
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__write_date
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__line_ids
+#: model_terms:ir.ui.view,arch_db:blockchain_proxy.view_mail_blockchain_reader_form
+msgid "Lines"
+msgstr "Líneas"
+
+#. module: blockchain_proxy
+#: model:ir.model,name:blockchain_proxy.model_blockchain_reader_line
+msgid "Lines for resutls from Blockchain"
+msgstr "Líneas de resultado de Blockchain"
+
+#. module: blockchain_proxy
+#: model:ir.model,name:blockchain_proxy.model_blockchain_reader
+msgid "Odoo model to test result from Blockchain"
+msgstr "Modelo Odoo para testear resultados desde el Blockchain"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__sequence
+msgid "Order"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__payload
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__payload
+msgid "Payload"
+msgstr ""
+
+#. module: blockchain_proxy
+#: model_terms:ir.ui.view,arch_db:blockchain_proxy.view_mail_blockchain_reader_form
+msgid "Read state"
+msgstr "Leer el estado"
+
+#. module: blockchain_proxy
+#: model:ir.actions.act_window,name:blockchain_proxy.action_view_blockchain_reader
+msgid "Readed instances"
+msgstr "Instancias leídas"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__reader_id
+msgid "Reader"
+msgstr "Lector"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__count
+msgid "Records to request"
+msgstr "Registros a pedir"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__response
+msgid "Response"
+msgstr "Respuesta"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__reverse
+msgid "Reverse"
+msgstr "Al revés"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader_line__signer_key
+msgid "Signer node key"
+msgstr "Llave para el nodo que firma"
+
+#. module: blockchain_proxy
+#: model:ir.model.fields,field_description:blockchain_proxy.field_blockchain_reader__start
+msgid "Start at"
+msgstr "Empezar en"
+
+#. module: blockchain_proxy
+#: code:addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#: code:addons/survey-blockchain/odoo_addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#, python-format
+msgid "The wrapper is not initialized. Please, call init_bc method before"
+msgstr "No ha inicializado el wrapper. Por favor, llame a init_bc antes"
+
+#. module: blockchain_proxy
+#: code:addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#: code:addons/survey-blockchain/odoo_addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#, python-format
+msgid ""
+"Timeout error with the Blockchain network. Failed to recieve data from "
+"{}\n"
+" Error: \n"
+" {}"
+msgstr "Timeout al esperar la confirmación de la red blockchain. No se han recibido datos de {}\n.Error {}"
+
+#. module: blockchain_proxy
+#: code:addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#: code:addons/survey-blockchain/odoo_addons/blockchain_proxy/models/blockchain_wrapper.py:0
+#, python-format
+msgid ""
+"Transaction timed out after waiting {} seconds. Review de transaction "
+"processor log"
+msgstr "Error al esperar {} segundos. Revise el procesador de transacciones"
+
+#. module: blockchain_proxy
+#: model:ir.model,name:blockchain_proxy.model_blockchain_wrapper
+msgid "Wrapper for Odoo models to can transact request with Blockchain"
+msgstr "Envoltorio para transaccionar con Blockchain"
+
+#. module: blockchain_proxy
+#: model_terms:ir.ui.view,arch_db:blockchain_proxy.view_mail_blockchain_reader_form
+msgid "Write state"
+msgstr "Escribir"
